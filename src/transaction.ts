@@ -72,6 +72,7 @@ export class ClientTransaction {
   private animationKey!: string;
 
   static ADDITIONAL_RANDOM_NUMBER = 3;
+  // I legit have no idea why this string works and others don't
   static DEFAULT_KEYWORD = 'obfiowerehiring';
 
   private constructor(homePage: CheerioAPI) {
