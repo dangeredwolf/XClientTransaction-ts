@@ -1,0 +1,21 @@
+{
+  "name": "xclienttransaction-ts",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "dangered wolf",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc ./src/*.ts --outDir dist",
+    "start": "node example.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.2",
+    "typescript": "^5.8.3"
+  }
+}
