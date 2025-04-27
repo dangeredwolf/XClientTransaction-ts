@@ -1,6 +1,6 @@
 # X-Client-Transaction-Id implementation in TypeScript
 
-Generates the X-Client-Transaction-Id header for account automation on Twitter.
+Generates the X-Client-Transaction-Id header for automating some Twitter GraphQL requests with accounts
 
 Technical readup by obfio on how to generate them: [Part 1](https://antibot.blog/posts/1741552025433), [2](https://antibot.blog/posts/1741552092462), [3](https://antibot.blog/posts/1741552163416)
 
